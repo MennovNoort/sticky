@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    top: 0;
+    transition-property: top;
+    transition-duration: 500ms;
+    height: 2em;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+}
+
+nav ul{
+    margin-left: 650px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 2em;
+    margin-top: -20px;
+}
+
+nav ul li:hover{
+    background-color: lightgray;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.main{
+    margin-top: 2em;
+}
+
+#Binnenland{
+    width: 100%;
+}
+
+#Binnenland img{
+    margin: 0 auto;
+    display: block;
+}
+
+#Binnenland p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#Buitenland{
+    width: 100%;
+}
+
+#Buitenland img{
+    margin: 0 auto;
+    display: block;
+}
+
+#Buitenland p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#Economie{
+    width: 100%;
+}
+
+#Economie img{
+    margin: 0 auto;
+    display: block;
+}
+
+#Economie p{
+    width: 75%;
+    margin: 0 auto;
+}
